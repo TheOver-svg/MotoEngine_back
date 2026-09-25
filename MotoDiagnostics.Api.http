@@ -1,6 +1,6 @@
-@MotoDiagnostics.Api_HostAddress = http://localhost:5045
+@MotoEngine_back_HostAddress = http://localhost:5045
 
-GET {{MotoDiagnostics.Api_HostAddress}}/weatherforecast/
+GET {{MotoEngine_back_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

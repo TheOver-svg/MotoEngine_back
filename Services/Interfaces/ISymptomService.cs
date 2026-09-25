@@ -1,6 +1,6 @@
-using MotoDiagnostics.Api.Models;
+using MotoEngine_back.Models;
 
-namespace MotoDiagnostics.Api.Services.Interfaces;
+namespace MotoEngine_back.Services.Interfaces;
 
 public interface ISymptomService
 {

@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using MotoDiagnostics.Api.Models;
-using MotoDiagnostics.Api.Services.Interfaces;
+using MotoEngine_back.Models;
+using MotoEngine_back.Services.Interfaces;
 
-namespace MotoDiagnostics.Api.Controllers;
+namespace MotoEngine_back.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

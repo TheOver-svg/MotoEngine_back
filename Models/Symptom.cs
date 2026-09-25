@@ -1,7 +1,7 @@
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
-namespace MotoDiagnostics.Api.Models;
+namespace MotoEngine_back.Models;
 
 public class Symptom
 {

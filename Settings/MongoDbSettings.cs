@@ -1,4 +1,4 @@
-namespace MotoDiagnostics.Api.Settings;
+namespace MotoEngine_back.Settings;
 
 public class MongoDbSettings
 {

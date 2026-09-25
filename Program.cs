@@ -1,6 +1,6 @@
-using MotoDiagnostics.Api.Services;
-using MotoDiagnostics.Api.Services.Interfaces;
-using MotoDiagnostics.Api.Settings;
+using MotoEngine_back.Services;
+using MotoEngine_back.Services.Interfaces;
+using MotoEngine_back.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 

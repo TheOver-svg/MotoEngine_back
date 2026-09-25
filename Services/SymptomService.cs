@@ -1,16 +1,16 @@
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using MotoDiagnostics.Api.Models;
-using MotoDiagnostics.Api.Services.Interfaces;
-using MotoDiagnostics.Api.Settings;
+using MotoEngine_back.Models;
+using MotoEngine_back.Services.Interfaces;
+using MotoEngine_back.Settings;
 
-namespace MotoDiagnostics.Api.Services;
+namespace MotoEngine_back.Services;
 
 public class SymptomService : ISymptomService
 {
     private readonly IMongoCollection<Symptom> _symptoms;
 
-    private SymptomService(IOptions<MongoDbSettings> settings)
+    public SymptomService(IOptions<MongoDbSettings> settings)
     {
         var client = new MongoClient(settings.Value.ConnectionString);
         var database = client.GetDatabase(settings.Value.DatabaseName);
