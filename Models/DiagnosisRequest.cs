@@ -14,5 +14,7 @@ public class FiredRule
 
     public string ConclusionText { get; set; } = null!;
 
+    public List<string> Because { get; set; } = new();
+
 }
 
