@@ -10,6 +10,7 @@ builder.Services.Configure<MongoDbSettings>(
 builder.Services.AddSingleton<ISymptomService, SymptomService>();
 builder.Services.AddSingleton<IRuleService, RuleService>();
 builder.Services.AddScoped<IDiagnosisService, DiagnosisService>();
+builder.Services.AddScoped<IConsultationService, ConsultationService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
